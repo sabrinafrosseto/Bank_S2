@@ -1,10 +1,8 @@
 # Bank_S2
 Sistema emulador de operações bancárias simples.
 
-Primeiro sistema elaborado enquanto estudava C# e é um sistema com o intuito de colocar em prática os métodos, o desenvolvimento, 
+Primeiro sistema elaborado enquanto estudava C#, é um sistema que emula as funções de abertura de conta, saque e depósito de valores.
 
-A base de dados em MySQL foi disponibilizada para a aplicação por meio de Docker local, apenas para fins de estudos (visto que não é exatamente o adequado em uma arquitetura essa atitude).
+O sistema está em .NetCore e realiza as operações, integrando com o banco de dados MySQL, determinando a devida criação ou alteração dos dados da conta bancária, inclusive, atualização dos valores a partir da realização das operações de saque e depósito.
 
-Ele está em .NetCore, usando 
-
-<img> source: C:\Users\Sabrina\Desktop\Estudos de Desenvolvimento\C#\Bank_S2\ContaBancaria\Imagem_solucoes.jpg</img>
+A base de dados em MySQL foi disponibilizada para a aplicação por meio de Docker local, apenas para fins de estudos (visto que subir a base de dados por docker não é exatamente o adequado em uma arquitetura de sistemas).
